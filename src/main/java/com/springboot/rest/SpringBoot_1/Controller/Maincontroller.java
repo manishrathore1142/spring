@@ -14,7 +14,7 @@ public class Maincontroller {
 	@Autowired
 	private TestBean testbean ;
 	 
-	@RequestMapping("/user")
+	@RequestMapping("/hello")
      public List  Hello(){
 		return testbean.person();
 	}
