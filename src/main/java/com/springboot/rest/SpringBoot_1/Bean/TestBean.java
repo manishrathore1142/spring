@@ -17,7 +17,7 @@ public class TestBean {
 	public List person(){
 		List<String>  al = new ArrayList<String>();
 		al.add("manish");
-        al.add("lovy");
+        al.add("lavy");
         al.add("Harshit");
 		
 		return al; 
